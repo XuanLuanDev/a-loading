@@ -1,3 +1,14 @@
-<a-loading [isLoading]="true" [type]="6" [color2]="'#00FF00'"></a-loading>
+
+
+<div style="display: flex;">
+    <select  style="width: 100px;height: 30px;" [(ngModel)]="type">
+        
+        <option *ngFor="let t of types" [value]="t" [attr.selected]="type == t?true:null">{{t}}</option>
+        </select>&nbsp;
+        <input type="color" [(ngModel)] ="color1" />&nbsp;
+        <input type="color" [(ngModel)] ="color2"/>&nbsp;
+        <input type="color" [(ngModel)] ="backdropColor"/>
+</div>
+<a-loading [isLoading]="true" [type]="type" [color1]="color1" [color2]="color2" [backdropColor]="backdropColor"></a-loading>
 
 <router-outlet></router-outlet>

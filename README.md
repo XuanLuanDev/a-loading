@@ -16,6 +16,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
  *backdropColor:* The color of backdrop
  *color1:* first color
  *color2:* second color
+ *type:* the type of loading
 
 ## Author
 
