@@ -12,9 +12,9 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Available Options
 
- *isLoading:* Hide/show loading component
- *backdropColor:* The color of backdrop
- *color1:* first color
+ *isLoading:* Hide/show loading component\
+ *backdropColor:* The color of backdrop\
+ *color1:* first color\
  *color2:* second color
 
 ## Author
