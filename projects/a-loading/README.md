@@ -15,7 +15,8 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
  *isLoading:* Hide/show loading component\
  *backdropColor:* The color of backdrop\
  *color1:* first color\
- *color2:* second color
+ *color2:* second color\
+ *type:* the type of loading
 
 ## Author
 
